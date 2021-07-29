@@ -1,0 +1,34 @@
+    th {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        align-content: center;
+    }
+    
+    th[scope=col] {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        align-content: center;
+    }
+    
+    th[scope=col] {
+        vertical-align: top;
+        color: inherit;
+        background-color: #1b1b1b;
+        align-content: center;
+    }
+    
+    body {
+        background-color: #e6e4e4;
+    }
+    
+    .detalhe {
+        background-color: #7c7c7c;
+    }
+    
+    tr.expandir {
+        display: none;
+    }
